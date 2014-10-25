@@ -1,0 +1,56 @@
+body{
+	margin: 0px;
+	font-family: Dosis;
+	font-size: 17px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.title{
+	font-size: 26px;
+}
+
+.msg{
+	font-size: 26px;
+	color: #BDBDBD;
+}
+
+.info{
+	font-size: 25px;
+}
+
+.main{
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.top{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.result{
+	width: 460px;
+	text-align: center;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shadow{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.loading{
+	vertical-align: middle;
+}
