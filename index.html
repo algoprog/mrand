@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>mRand - Random music player</title>
+<meta charset="UTF-8">
+<meta name="description" content="Discover random top songs from YouTube and iTunes.">
+<meta name="keywords" content="mrand, music rand, youtube, itunes, random music">
+<link href="images/icon.png" rel="icon" type="image/png"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/sly.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/app.js"></script>
+
+<link rel="stylesheet" href="css/app.css"/>
+<link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+
+<script src="js/youtube.js"></script>
+
+</head>
+
+<body>
+
+<div id="loader"><div class="pulse-loader"></div></div>
+<div id="video"></div>
+
+<div class="wrap">
+	<div class="scrollbar" id="scrollbar">
+		<div class="handle">
+			<div class="mousearea"></div>
+		</div>
+	</div>
+	<div class="frame" id="slider">
+		<ul class="clearfix" id="songs"></ul>
+	</div>
+</div>
+
+<img src="images/logo.png" id="logo"/>
+
+</body>
+
+</html>
